@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    justify-content:first baseline;
+}
+body{
+    font-family:Arial;
+    font-size: 16px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 430px;
+    margin-right: 430px;
+    
+    
+       
+}
+.Atendente p{
+    border: 1px solid black; 
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 6px;     
+    color: black;    
+}
+.Atendente{   
+    text-align: left;
+    justify-content: flex-end;
+    width: 65%;
+    margin-top: 15px;
+    
+}
+.voce p{
+    border: 1px solid black; 
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    Text-align: start;
+    background-color: white;  
+    color: black;   
+}
+
+
+.voce  {
+    width: 65%;
+    text-align: right;
+    justify-content: flex-end;
+    margin-left: 143px;
+    margin-top: 15px; 
+    margin-bottom: 25px;  
+    
+}
+.page{
+    max-height: 300px;
+    overflow: auto;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px; 
+    background-color: white;
+    
+         
+}
+#form {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+    ;
+    
+}
+#msg{
+    flex: 1;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 10px;
+    border: 2px solid black;
+    font-size: 14px;
+    letter-spacing: 1px;
+   
+}
+#btn{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;  
+    font-size: 14px;
+    border: 2px solid black;
+    color: darkgreen;
+    cursor: pointer;
+    
+}
+#btn:hover
+{background-color:green ;
+    color: white;
+}    
+
+
+
+    
+
+
+
+    
+    
+   
+  
