@@ -28,23 +28,5 @@ form.reset();
 
 
 
-/*const msgInput = document.getElementById("msg")
-console.log(msgInput.value);
 
-
-const nP = document.createElement("p");
-nP.innerText = msgInput.value;
-nP.appendChild(msgInput);
-
-const voceDiz = document.createElement("h5");
-voceDiz.innerText = "Você diz";
-nP.appendChild(voceDiz);
-
-
-
-const voce = document.querySelector("#voce")
-voce.appendChild(nP)
-
-console.log(nP)
-*/
 })
